@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.navbar-brand > img{
+    height: 50px;
+    width: 50px;
+}
