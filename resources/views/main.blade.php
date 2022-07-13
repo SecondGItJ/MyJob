@@ -1,4 +1,5 @@
 @extends('layout/layout')
+
 @section('script')
     <script type="text/javascript">
         $(function() {
@@ -13,13 +14,6 @@
 
         });
     </script>
-
-    <style>
-        header {
-            position: fixed;
-            z-index: 100;
-        }
-    </style>
 @endsection
 
 @section('content')
