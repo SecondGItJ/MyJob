@@ -1,3 +1,7 @@
+@php
+use App\Http\Controllers\FormController as FC;
+@endphp
+
 @extends('layout/layout')
 
 @section('script')

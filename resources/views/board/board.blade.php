@@ -1,3 +1,9 @@
+@php
+
+use App\Http\Controllers\FormController as FC;
+
+@endphp
+
 @extends('layout/layout')
 
 @section('script')
@@ -17,7 +23,5 @@
 @endsection
 
 @section('content')
-    <div>
-        <h1>게시판</h1>
-    </div>
+    {!! FC::SetBoard() !!}
 @endsection
